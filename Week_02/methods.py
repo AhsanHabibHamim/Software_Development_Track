@@ -10,5 +10,5 @@ class phone:
 my_phone = phone()
 print(my_phone.freature)
 my_phone.call()
-result = my_phone.send_sms(1993899080, 'I Love You')
+result = my_phone.send_sms(1993899080, 'Thank You')
 print(result)
