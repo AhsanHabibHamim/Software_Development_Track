@@ -1,0 +1,7 @@
+{
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggest.selectionMode": "never",
+  "editor.suggestOnTriggerCharacters": false,
+  "terminal.integrated.suggest.enabled": false
+}
