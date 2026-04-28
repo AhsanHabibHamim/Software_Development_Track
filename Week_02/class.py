@@ -8,7 +8,7 @@ class Student:
 
 Student_Details = Student()
 
-print(Student_Details.Name)
+print(Student_Details.Name) 
 print(Student_Details.Department)
 print(Student_Details.Session)
 print(type(Student_Details.Semester))
