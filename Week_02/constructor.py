@@ -1,3 +1,6 @@
+"""
+We use constructor __init__ and declare a class name Student and convert it into different object , Now we can use it multiple times with passing diffrent value.
+"""
 class Student:
     Institute='Dhaka Polytechnic Institute'
 
@@ -22,3 +25,21 @@ print() #spacer
 # Student Details 03
 Student_03 = Student('Sabiha Akter', 242475, '5th', 'Mechanical')
 print(Student_03.Name, Student_03.Roll, Student_03.Semester, Student_03.Department, sep='\n')
+
+"""
+Output:
+Ahsan Habib Hamim
+242473
+3rd
+Computer
+
+MD Sahidul islam
+242474
+4th
+Civil
+
+Sabiha Akter
+242475
+5th
+Mechanical
+"""

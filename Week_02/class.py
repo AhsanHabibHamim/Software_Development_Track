@@ -1,3 +1,4 @@
+#Declaration of Class and then convert it into object after that print the element of object.
 class Student:
     def __init__(self):
         self.Name = 'Ahsan Habib Hamim'
@@ -13,3 +14,13 @@ print(Student_Details.Department)
 print(Student_Details.Session)
 print(type(Student_Details.Semester))
 print(type(Student_Details.Age))
+
+"""
+Output:
+Ahsan Habib Hamim
+Computer
+2024 - 2025
+<class 'str'>
+<class 'int'>
+
+"""

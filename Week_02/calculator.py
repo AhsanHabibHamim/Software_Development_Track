@@ -1,3 +1,7 @@
+"""
+Making a simple calculator using the methods atribute in class which can add, subtract, multiply and divide 2 numbers
+"""
+
 class Calculator:
     brand = 'Calculator Model: Casio MS 99'
 
@@ -27,3 +31,12 @@ print(Add)
 print(Sub)
 print(Mul)
 print(Div)
+
+"""
+Output:
+Calculator Model: Casio MS 99
+The addition is 30
+The summetion is 80
+The Multiplication is 200
+The dividation is 5.0
+"""
