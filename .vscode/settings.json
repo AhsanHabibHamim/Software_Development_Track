@@ -4,4 +4,8 @@
   "editor.suggest.selectionMode": "never",
   "editor.suggestOnTriggerCharacters": false,
   "terminal.integrated.suggest.enabled": false
+  ,
+  "python.formatter.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.black-formatter"
 }
