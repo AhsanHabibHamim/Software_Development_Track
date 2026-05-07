@@ -1,8 +1,4 @@
-# Customer
-# Employe
-# Admin
 from abc import ABC
-
 
 class User(ABC):
 
@@ -37,13 +33,12 @@ class Admin(User):
 
     def remove_item(self, Restuarent, item):
         Restuarent.menu.remove_item(item)
-
-
+                    
 class Restuarent:
     def __init__(self, name):
         self.name = name
         self.employees = []  # Working as a database
-        self.menu = FoodItem()
+        #self.menu = FoodItem()
 
     def add_employee(self, employee):
         self.employees.append(employee)
